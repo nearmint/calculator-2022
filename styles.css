@@ -1,0 +1,41 @@
+#container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#display {
+    flex-shrink: 0;
+    width: 600px !important;
+}
+
+#buttons-container {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+#numbers-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+#actions-container {
+    display:flex;
+    width: 150px;
+    flex-wrap: wrap;
+}
+
+#container > div > div > div {
+    box-sizing: border-box;
+    width: 150px;
+    background-color: lightgrey;
+    border: 5px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
