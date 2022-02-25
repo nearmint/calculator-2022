@@ -8,6 +8,11 @@
 #display {
     flex-shrink: 0;
     width: 600px !important;
+    border: 1px grey solid;
+    height: 1.3em;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #buttons-container {
